@@ -37,6 +37,14 @@ def read():
     for row in c.fetchall():
         print(row)
         
-
+def update():
+    getvar = input()
+    getnum = float(input())
+    c.execute('SELECT * FROM user')
+    for row in c.fetchall():
+        print(row)
+    
+    
 create_table()
 read()
+update()
