@@ -8,7 +8,7 @@ def create_table():
 )
 
 def create_row():
-    for i in range(2):
+    for i in range(200):
 
         sql = ''' INSERT INTO user(name, email, phone, bio, gender, DOB, address, longitude, latitude, photolink, sociallink)
                 VALUES(?,?,?,?,?,?,?,?,?,?,?)'''
