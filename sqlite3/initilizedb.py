@@ -60,6 +60,7 @@ def update():
     
     for row in c.fetchall():
         print(row)
+        
     
     conn.commit()
     
